@@ -1,15 +1,19 @@
 package com.jhonatasrm.example_recyclerview;
 
+// item
 public class Item {
 
+    // id + name of the item
     private int id;
     private String name;
 
+    // constructor method
     public Item (int id, String name){
         this.id = id;
         this.name = name;
     }
 
+    // get and set methods
     public int getId() {
         return id;
     }
