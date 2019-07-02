@@ -11,11 +11,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+// adapter class
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemHolder> {
 
     List<Item> items = new ArrayList<>();
     private Context context;
 
+    // constructor with the context
     public ItemAdapter(Context context){
         this.context = context;
 
@@ -40,6 +42,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemHolder> {
         itemHolder.txtName.setText(item.getName());
     }
 
+    // get item count
     @Override
     public int getItemCount() {
         return items.size();
