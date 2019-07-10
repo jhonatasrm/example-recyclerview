@@ -8,10 +8,12 @@ import android.support.v7.widget.RecyclerView;
 
 import com.jhonatasrm.example_lrecyclerview.R;
 
+// main activity
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
 
+    // onCreate method
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
